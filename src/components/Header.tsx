@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="flex items-center p-7 justify-between sticky top-0 bg-white z-50 shadow-md">
 
-      <div className="flex space-x-2 gap-2 items-center">
+      <Link href={"/"} className="flex space-x-2 gap-2 items-center">
         <Image
           src="https://links.papareact.com/4t3"
           alt=""
@@ -19,7 +19,7 @@ function Header() {
             Powered by DALL-E 2, Chat GPT & Microsoft Azure
           </h2>
         </div>
-      </div>
+      </Link>
 
       <div className="md:text-lg">
         <Link className="px-2 font-light" href={'https://github.com/WalidAit69'}>Github</Link>

@@ -7,6 +7,10 @@ function generate() {
       <Header></Header>
 
       <PromptInput></PromptInput>
+
+      <section>
+        <h1>images</h1>
+      </section>
     </main>
   )
 }
