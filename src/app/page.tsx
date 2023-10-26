@@ -1,4 +1,6 @@
+import Image from "next/image";
 import "./styles.css";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -37,9 +39,9 @@ export default function Home() {
 
         <div className="flex gap-10">
           <button>Log in</button>
-          <button className="bg-transparent px-6 py-2 rounded-3xl border focus-within:bg-blue-900 hover:bg-blue-900 active:border-zinc-800">
+          <Link href={"/generate"} className="bg-transparent px-6 py-2 rounded-3xl border focus-within:bg-blue-900 hover:bg-blue-900 active:border-zinc-800">
             Generate
-          </button>
+          </Link>
         </div>
       </header>
 
