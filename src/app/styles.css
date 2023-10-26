@@ -1,0 +1,45 @@
+.screen{
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid img{
+    object-fit: cover;
+    object-position: center;
+    width: 295px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grid img:nth-child(1){
+    grid-column: 1 / span 2;
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-2 img{
+    object-fit: cover;
+    object-position: center;
+    width: 295px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grid-2 img:nth-child(3){
+    grid-column: 1 / span 2;
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
